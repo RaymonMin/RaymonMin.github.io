@@ -19,20 +19,16 @@
             justify-content: center;
             align-items: center;
             flex-wrap: wrap; /* 允许项目换行 */
+            gap: 20px; /* 为 flex 容器中的项目设置间隙 */
         }
         .flex-item {
             margin: 10px;
         }
         .github-stats {
-            margin-top: 20px;
-        }
-        .languages-tools, .github-stats {
             display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-        .languages-tools img, .social-icons img {
-            margin: 0 10px; /* 为社交图标和工具图标添加间距 */
+            justify-content: center; /* 居中显示 */
+            flex-wrap: auto; /* 确保内容不换行 */
+            gap: 20px; /* 设置项目之间的间隙 */
         }
     </style>
 </head>
@@ -78,8 +74,12 @@
         </div>
 
         <div class="github-stats">
-            <img src="https://github-readme-stats.vercel.app/api?username=melchizedekm&show_icons=true&locale=en" alt="GitHub Stats" />
-            <img src="https://github-readme-streak-stats.herokuapp.com/?user=melchizedekm&" alt="GitHub Streak Stats" />
+            <a>
+                <img src="https://github-readme-stats.vercel.app/api?username=melchizedekm&show_icons=true&locale=en" alt="GitHub Stats" />
+            </a>
+            <a>
+                <img src="https://github-readme-streak-stats.herokuapp.com/?user=melchizedekm&" alt="GitHub Streak Stats" />
+            </a>
         </div>
     </div>
 </body>
