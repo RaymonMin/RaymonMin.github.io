@@ -48,4 +48,4 @@ Honors and Awards
 
 Service and leadership
 ======
-* Currently leading to run a website aimed at sharing self-written lecture notes to help us learn and explore more, called [“HKUST Notes Collection Center”](hkustsharing.ruimingmin.com).
+* Currently leading to run a website aimed at sharing self-written lecture notes to help us learn and explore more, called [“HKUST Notes Collection Center”](https://sites.google.com/view/hkustsharing).
