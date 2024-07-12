@@ -17,6 +17,9 @@ main:
 
   - title: "Blog Posts"
     url: /year-archive/
+
+  - title: "HKUST Course Notes"
+    url: hkustsharing.ruimingmin.com
     
   #- title: "Guide"
   #  url: /markdown/
