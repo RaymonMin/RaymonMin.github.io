@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! This is the 
+Hi! Here is my personal websit! I am Ruiming (/ʐweɪ mɪŋ/, or you can simply call me Raymon) Min.
 
 A data-driven personal website
 ======
