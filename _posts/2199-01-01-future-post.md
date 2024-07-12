@@ -1,7 +1,7 @@
 ---
 title: 'Future Blog Post'
-date: 4202-70-21
-permalink: /posts/4202/70/blog-post-1/
+date: 2199-01-01
+permalink: /posts/2199/01/blog-post-1/
 tags:
   - future plan
 
