@@ -49,4 +49,4 @@ Honors and Awards
 Service and leadership
 ======
 * Currently leading to run a website aimed at sharing self-written lecture notes to help us learn and explore more, called [“HKUST Notes Collection Center”](https://hkustsharing.ruimingmin.com).
-* I am also trying to summarize a note about basic knowledge of linear algebra based on my hand-writing note in the linear algebra course I took. Here is [the link of its draft](https://github.com/RaymonMin/Linear_algebra_note)
+* I am also trying to summarize a note about basic knowledge of linear algebra based on my hand-writing note in the linear algebra course I took. Here is [the link of its draft](https://github.com/RaymonMin/Linear_algebra_note).
