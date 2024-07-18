@@ -19,7 +19,7 @@ main:
     url: /year-archive/
 
   - title: "HKUST Course Notes"
-    url: http://hkustsharing.ruimingmin.com
+    url: https://sites.google.com/view/hkustsharing
     external: true
   #- title: "Guide"
   #  url: /markdown/
