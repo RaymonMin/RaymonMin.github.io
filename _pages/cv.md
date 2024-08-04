@@ -12,20 +12,22 @@ redirect_from:
 Education
 ======
 * BSc in Mathematics and Economics, double major in Computer Science, Hong Kong University of Science and Technology (HKUST), 2021-Now
-* Exchange student at UIUC
+  * CGA: 3.95/4.30 (~1%); obtained A+ and A for all math courses; took all honor math courses provided in HKUST.
+* Exchange Student, University of Illinois at Urbana-Champaign
+  * CGA: 3.93/4; obtained A* and A for all statistic courses.
 
 Research project
 =====
-* Trade-off Between Privacy and Accuracy of Synthetic Data (Supervised by Prof. Junhui WANG, Chinese University of Hong Kong, 01/2024-Now)
+* Trade-off Between Privacy and Accuracy of Synthetic Data (Supervised by Prof. [Junhui WANG](https://sites.google.com/site/junhuiwang/Home?authuser=0), Chinese University of Hong Kong, 01/2024-Now)
   * Developed a methodology for measuring the privacy protection of generative model trained by synthetic data.
   * Investigating statistical patterns between synthetic and real data.
   * Developing a loss function that optimizes model performance while simultaneously characterizing its privacy loss.
   * Summarizing the statistical optimization method and endeavored to author a paper on the subject.
-* Policy Learning with Pessimism and Noise (Supervised by Prof. Xinzhou GUO, Hong Kong University of Science and Technology, 04/2024-Now)
+* Policy Learning with Pessimism and Noise (Supervised by Prof. [Xinzhou GUO](https://www.math.hkust.edu.hk/people/faculty/profile/xinzhoug/), Hong Kong University of Science and Technology, 04/2024-Now)
   * Researched the statistical and information-theoretic reasons for the enhancement of policy learning performance due to pessimism.
   * Attempting to replace complex, designed penalties with non-negative noise in optimization processes..
   * Establishing an appropriate confidence interval to depict the robustness of the learning effect.
-* Knowledge Discovery over Database (Supervised by Prof. Raymond WONG, Hong Kong University of Science and Technology,02/2023-06/2023)
+* Knowledge Discovery over Database (Supervised by Prof. [Raymond Chi Wing WONG](https://www.cse.ust.hk/~raywong/), Hong Kong University of Science and Technology,02/2023-06/2023)
   * Conducted in-depth analysis and replication of published papers related to time-series. 
   * Identified and reported studies that notably enhanced prediction accuracy.  
   * Compiled and documented pertinent algorithms and data processing techniques for reference.
