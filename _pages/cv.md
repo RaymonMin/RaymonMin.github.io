@@ -16,15 +16,15 @@ Education
 
 Research project
 =====
-* Differential Privacy of Synthetic Data (Supervised by Prof. Junhui WANG, Chinese University of Hong Kong, 01/2024-Now)
-  * Developed an innovative methodology for measuring the privacy protection of synthetic datasets.
+* Trade-off Between Privacy and Accuracy of Synthetic Data (Supervised by Prof. Junhui WANG, Chinese University of Hong Kong, 01/2024-Now)
+  * Developed a methodology for measuring the privacy protection of generative model trained by synthetic data.
   * Investigating statistical patterns between synthetic and real data.
-  * Leveraged statistical insights to architect a novel data modeling framework that advances the level of privacy, ensuring both robust data protection and data usability.
-  * Summarizing statistical laws and endeavored to author a paper on the subject.
+  * Developing a loss function that optimizes model performance while simultaneously characterizing its privacy loss.
+  * Summarizing the statistical optimization method and endeavored to author a paper on the subject.
 * Policy Learning with Pessimism and Noise (Supervised by Prof. Xinzhou GUO, Hong Kong University of Science and Technology, 04/2024-Now)
   * Researched the statistical and information-theoretic reasons for the enhancement of policy learning performance due to pessimism.
   * Attempting to replace complex, designed penalties with non-negative noise in optimization processes..
-  * Developing a learning algorithm with faster convergence rates and computational efficiency.
+  * Establishing an appropriate confidence interval to depict the robustness of the learning effect.
 * Knowledge Discovery over Database (Supervised by Prof. Raymond WONG, Hong Kong University of Science and Technology,02/2023-06/2023)
   * Conducted in-depth analysis and replication of published papers related to time-series. 
   * Identified and reported studies that notably enhanced prediction accuracy.  
@@ -39,12 +39,12 @@ Internship Experience
 
 Honors and Awards
 =====
-* 18th Epsilon Fund Award in HKUST (based on the academic and reaching achievement, only one in the major)
-* 2022 S.S. CHERN Class Admission Scholarship
-* The BDR Scholarship - Academic Performance
-* The third prize in the final competition of the 37th Chinese Physics Olympiad 
-* 2021 HKUST Admission Scholarship
-* 2022/23 University’s Scholarship Scheme for Continuing Undergraduate Students
+* 18th Epsilon Fund Award in HKUST (Awarded to top math students, less than 10 undergraduates per year)
+* 2022 S.S. CHERN Class Admission Scholarship (Awarded to students in the prestigious S.S. Chern Class)
+* The BDR Scholarship - Academic Performance (30,000HKD)
+* Third prize in the final competition of the 37th Chinese Physics Olympiad（Top 300 current high school students in China nationwide）
+* 2021 HKUST Admission Scholarship (140,000HKD)
+* 2022/23 University’s Scholarship Scheme for Continuing Undergraduate Students (10,000HKD)
 
 Service and leadership
 ======
