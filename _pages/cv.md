@@ -42,7 +42,7 @@ Honors and Awards
 * 18th Epsilon Fund Award in HKUST (Awarded to top math students, less than 10 undergraduates per year)
 * 2022 S.S. CHERN Class Admission Scholarship (Awarded to students in the prestigious S.S. Chern Class)
 * The BDR Scholarship - Academic Performance (30,000HKD)
-* Third prize in the final competition of the 37th Chinese Physics Olympiad（Top 300 current high school students in China nationwide）
+* Bronze medal  in the final competition of the 37th Chinese Physics Olympiad（Top high school students in China nationwide）
 * 2021 HKUST Admission Scholarship (140,000HKD)
 * 2022/23 University’s Scholarship Scheme for Continuing Undergraduate Students (10,000HKD)
 
