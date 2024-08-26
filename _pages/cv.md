@@ -11,19 +11,19 @@ redirect_from:
 
 Education
 ======
-* BSc in Mathematics and Economics, double major in Computer Science, Hong Kong University of Science and Technology (HKUST), 2021-Now
+* BSc in Mathematics and Economics, double major in Computer Science, Hong Kong University of Science and Technology (HKUST), 2021-Present
   * CGA: 3.95/4.30 (~1%); obtained A+ and A for all math courses; took all honor math courses provided in HKUST.
 * Exchange Student, University of Illinois at Urbana-Champaign
   * CGA: 3.93/4; obtained A* and A for all statistic courses.
 
 Research project
 =====
-* Trade-off Between Privacy and Accuracy of Synthetic Data (Supervised by Prof. [Junhui WANG](https://sites.google.com/site/junhuiwang/Home?authuser=0), Chinese University of Hong Kong, 01/2024-Now)
+* Trade-off Between Privacy and Accuracy of Synthetic Data (Supervised by Prof. [Junhui WANG](https://sites.google.com/site/junhuiwang/Home?authuser=0), Chinese University of Hong Kong, 01/2024-Present)
   * Developed a methodology for measuring the privacy protection of generative model trained by synthetic data.
   * Investigating statistical patterns between synthetic and real data.
   * Developing a loss function that optimizes model performance while simultaneously characterizing its privacy loss.
   * Summarizing the statistical optimization method and endeavored to author a paper on the subject.
-* Policy Learning with Pessimism and Noise (Supervised by Prof. [Xinzhou GUO](https://www.math.hkust.edu.hk/people/faculty/profile/xinzhoug/), Hong Kong University of Science and Technology, 04/2024-Now)
+* Policy Learning with Pessimism and Noise (Supervised by Prof. [Xinzhou GUO](https://www.math.hkust.edu.hk/people/faculty/profile/xinzhoug/), Hong Kong University of Science and Technology, 04/2024-Present)
   * Researched the statistical and information-theoretic reasons for the enhancement of policy learning performance due to pessimism.
   * Attempting to replace complex, designed penalties with non-negative noise in optimization processes..
   * Establishing an appropriate confidence interval to depict the robustness of the learning effect.
@@ -32,6 +32,14 @@ Research project
   * Identified and reported studies that notably enhanced prediction accuracy.  
   * Compiled and documented pertinent algorithms and data processing techniques for reference.
   
+Teaching Experience
+======
+*  COMP2011 - Programming with C++ (As a Undergraduate Teaching Assistant, Hong Kong, 09/2024-Present)
+  * Lead laboratory sessions and provide comprehensive support to Postgraduate Teaching Assistants (PGTAs), taking responsibility for addressing student inquiries and ensuring high-quality lab instruction
+  * Contribute to lab curriculum development by conducting pre-release checks, troubleshooting, and optimization to enhance the effectiveness of practical learning experiences
+  * Assist in organizing and managing paper-grading sessions following midterm and final examinations, ensuring fair and accurate assessmen
+
+
 Internship Experience
 ======
 * Computer Department, Investment Research Center, Essence Securities Co., Ltd. (As a Assistant Analyst, Shanghai / Online, 06/2023-09/2023)
@@ -44,11 +52,13 @@ Honors and Awards
 * 18th Epsilon Fund Award in HKUST (Awarded to top math students, less than 10 undergraduates per year)
 * 2022 S.S. CHERN Class Admission Scholarship (Awarded to students in the prestigious S.S. Chern Class)
 * The BDR Scholarship - Academic Performance (30,000HKD)
-* Bronze medal  in the final competition of the 37th Chinese Physics Olympiad（Top high school students in China nationwide）
+* Bronze medal in the final competition of the 37th Chinese Physics Olympiad（Top high school students in China nationwide）
 * 2021 HKUST Admission Scholarship (140,000HKD)
 * 2022/23 University’s Scholarship Scheme for Continuing Undergraduate Students (10,000HKD)
 
 Service and leadership
 ======
-* Currently leading to run a website aimed at sharing self-written lecture notes to help us learn and explore more, called [“HKUST Notes Collection Center”](https://sites.google.com/view/hkustsharing).
+* I am a student tutor at the [Math Support Center](https://www.math.hkust.edu.hk/~support/index.html) at HKUST, providing drop-in tutoring support for math courses.
+* I am the founder and leader of  [“HKUST Notes Collection Center”](https://sites.google.com/view/hkustsharing), a student-run website dedicated to sharing self-written lecture notes across various subjects to enhance learning and exploration.
 * I am also trying to summarize a note about basic knowledge of linear algebra based on my hand-writing note in the linear algebra course I took. Here is [the link of its draft](https://github.com/RaymonMin/Linear_algebra_note).
+* I served as a student representative on the [Student Liaison Subcommittee](https://registry.hkust.edu.hk/resource-library/student-staff-liaison-committees) for two consecutive years, advocating for student interests and facilitating communication between students and faculty.
