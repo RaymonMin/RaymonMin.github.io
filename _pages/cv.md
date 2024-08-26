@@ -34,7 +34,7 @@ Research project
   
 Teaching Experience
 ======
-*  COMP2011 - Programming with C++ (As a Undergraduate Teaching Assistant, Hong Kong, 09/2024-Present)
+* COMP2011 - Programming with C++ (As a Undergraduate Teaching Assistant, Hong Kong, 09/2024-Present)
   * Lead laboratory sessions and provide comprehensive support to Postgraduate Teaching Assistants (PGTAs), taking responsibility for addressing student inquiries and ensuring high-quality lab instruction
   * Contribute to lab curriculum development by conducting pre-release checks, troubleshooting, and optimization to enhance the effectiveness of practical learning experiences
   * Assist in organizing and managing paper-grading sessions following midterm and final examinations, ensuring fair and accurate assessmen
