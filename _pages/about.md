@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! Welcome to my personal website! I am Ruiming (/ʐweɪ mɪŋ/, or you can simply call me Raymon) Min. I am a senior undergraduate student majoring in [Mathematics and Economics](https://maec.hkust.edu.hk/home) and [Computer Science](https://cse.hkust.edu.hk/bsc/) at [the Hong Kong University of Science and Technology](https://hkust.edu.hk/).
+Hi! Welcome to my personal website! I am Ruiming (/ʐweɪ mɪŋ/ for pronuncing, 闵锐明 in Chinese, or you can simply call me Raymon) Min. I am a senior undergraduate student majoring in [Mathematics and Economics](https://maec.hkust.edu.hk/home) and [Computer Science](https://cse.hkust.edu.hk/bsc/) at [the Hong Kong University of Science and Technology](https://hkust.edu.hk/).
 
 My research interests include causal relations, explainable machine intelligence, synthetic data using generation models, and policy learning. 
 
