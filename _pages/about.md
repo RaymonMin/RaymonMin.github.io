@@ -17,4 +17,4 @@ Additionally, I am working on my independent capstone project (final year projec
 
 What's more
 ------
-You can see my [CV](https://ruimingmin.com/cv/) here or cleck [this link](https://hkustconnect-my.sharepoint.com/:b:/g/personal/rmin_connect_ust_hk/Ee-DWCfHJ9tKrphJHKhR9QQBGU9RMuR6mEFnPa_7byiKNQ?e=pt4pf0) to download. I am also running a website aimed at sharing self-written lecture notes to help us learn and explore more, called [“HKUST Notes Collection Center”](https://sites.google.com/view/hkustsharing). If you are interested, please do feel free to [connect with us](mailto:hkustsharing@gmail.com).
+You can see my [CV](https://ruimingmin.com/cv/) here or cleck [this link](https://hkustconnect-my.sharepoint.com/:b:/g/personal/rmin_connect_ust_hk/EaZlOe2y-e9DqG3lPL4HoKEBygz-qzYCixoqoh367-cThg?e=7zo0l8) to download. I am also running a website aimed at sharing self-written lecture notes to help us learn and explore more, called [“HKUST Notes Collection Center”](https://sites.google.com/view/hkustsharing). If you are interested, please do feel free to [connect with us](mailto:hkustsharing@gmail.com).

@@ -19,10 +19,12 @@ Education
 Research project
 =====
 * Trade-off Between Privacy and Accuracy of Synthetic Data (Supervised by Prof. [Junhui WANG](https://sites.google.com/site/junhuiwang/Home?authuser=0), Chinese University of Hong Kong, 01/2024-Present)
-  * Developed a methodology for measuring the privacy protection of generative model trained by synthetic data.
-  * Investigating statistical patterns between synthetic and real data.
-  * Developing a loss function that optimizes model performance while simultaneously characterizing its privacy loss.
-  * Summarizing the statistical optimization method and endeavored to author a paper on the subject.
+  * Developed a privacy metric for generative models, extending the differential privacy examination framework to scenarios where traditional noise addition or model analysis techniques are ineffective.
+  * Designing a penalty-based algorithm leveraging the novel privacy metric to balance privacy protection and downstream task accuracy of generated data in model training.
+  * Developed a novel GAN algorithm under the proposed privacy metric, achieving improved downstream task accuracy while maintaining robust privacy protection.
+* Differential Privacy for Inference in the Debiased LASSO Model (Supervised by Prof. [Xinzhou GUO](https://www.math.hkust.edu.hk/people/faculty/profile/xinzhoug/), Hong Kong University of Science and Technology, 09/2024-Present)
+  * Providing proof of asymptotic normality theorem for a novel method combining differentially private de-biased lasso with bootstrap techniques to effectively address selection bias.
+  * Providing proof of asymptotic normality theorem for an innovative method for multimodal EEG learning that integrates differential privacy principles.
 * Policy Learning with Pessimism and Noise (Supervised by Prof. [Xinzhou GUO](https://www.math.hkust.edu.hk/people/faculty/profile/xinzhoug/), Hong Kong University of Science and Technology, 04/2024-Present)
   * Researched the statistical and information-theoretic reasons for the enhancement of policy learning performance due to pessimism.
   * Attempting to replace complex, designed penalties with non-negative noise in optimization processes..
@@ -38,6 +40,10 @@ Teaching Experience
   * Lead laboratory sessions and provide comprehensive support to Postgraduate Teaching Assistants (PGTAs), taking responsibility for addressing student inquiries and ensuring high-quality lab instruction
   * Contribute to lab curriculum development by conducting pre-release checks, troubleshooting, and optimization to enhance the effectiveness of practical learning experiences
   * Assist in organizing and managing paper-grading sessions following midterm and final examinations, ensuring fair and accurate assessmen
+* Math Support Center Hong Kong (As a Undergraduate Student Tutors, Hong Kong, 09/2024-Present)
+  * Provided tutoring for undergraduate mathematics coursework across all four years for HKUST students.
+  * Provided comprehensive mathematics tutoring and knowledge structuring for HKUST undergraduates across all four years of study.
+  * Provided technical support for various mathematics courses to HKUST undergraduates across all four years of study.
 
 
 Internship Experience
