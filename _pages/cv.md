@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * BSc in Mathematics and Economics, double major in Computer Science, Hong Kong University of Science and Technology (HKUST), 2021-Present
-  * CGA: 3.95/4.30 (~1%); obtained A+ and A for all math courses; took all honor math courses provided in HKUST.
+  * CGA: 3.95/4.30 (**Rank:1** in major, ~1% in school level); obtained A+ and A for all math courses; took all honor math courses provided in HKUST.
 * Exchange Student, University of Illinois at Urbana-Champaign
   * CGA: 3.93/4; obtained A* and A for all statistic courses.
 
