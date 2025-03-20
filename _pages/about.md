@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-Hi! Welcome to my personal website! I am Ruiming (/ʐweɪ mɪŋ/ for pronouncing, 闵锐明 in Chinese, or you can simply call me Raymon) Min. I am a senior undergraduate student majoring in [Mathematics and Economics](https://maec.hkust.edu.hk/home) and [Computer Science](https://cse.hkust.edu.hk/bsc/) at [the Hong Kong University of Science and Technology](https://hkust.edu.hk/).
+Hi! Welcome to my personal website! I am Ruiming Min (/ʐweɪ mɪŋ mɪn/ or 'Ray Ming Min' for pronouncing, 闵锐明 in Chinese, or you can simply call me Raymon). I am a in comming PhD in Statistics under Professor [Xiaotong Shen](http://users.stat.umn.edu/~xshen/)'s supervision at School of [Statistics, University of Minnesota](http://www.stat.umn.edu/) and a senior undergraduate student majoring in [Mathematics and Economics](https://maec.hkust.edu.hk/home) and [Computer Science](https://cse.hkust.edu.hk/bsc/) at [the Hong Kong University of Science and Technology](https://hkust.edu.hk/).
 
-My research interests include causal relations, explainable machine intelligence, synthetic data using generation models, and policy learning. 
+My research interests include causal relations, generative inference and prediction for black-box learners, and synthetic data using generation models. 
 
 I am currently collaborating with Professor [Junhui WANG](https://sites.google.com/site/junhuiwang/Home?authuser=0) on differential privacy in synthetic data generation models and causal relations. 
 Additionally, I am working on my independent capstone project (final year project) under the supervision of Professor [Xinzhou GUO](https://www.math.hkust.edu.hk/people/faculty/profile/xinzhoug/) in the field of differential privacy in high-dimensional linear models and policy learning.
