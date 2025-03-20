@@ -7,7 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-Hi! Welcome to my personal website! I am Ruiming Min (/ʐweɪ mɪŋ mɪn/ or 'Ray Ming Min' for pronouncing, 闵锐明 in Chinese, or you can simply call me Raymon). I am a in comming PhD in Statistics under Professor [Xiaotong Shen](http://users.stat.umn.edu/~xshen/)'s supervision at School of [Statistics, University of Minnesota](http://www.stat.umn.edu/) and a senior undergraduate student majoring in [Mathematics and Economics](https://maec.hkust.edu.hk/home) and [Computer Science](https://cse.hkust.edu.hk/bsc/) at [the Hong Kong University of Science and Technology](https://hkust.edu.hk/).
+Hi! Welcome to my personal website! I am Ruiming Min (/ʐweɪ mɪŋ mɪn/ or 'Ray Ming Min' for pronouncing, 闵锐明 in Chinese, or you can simply call me Raymon). 
+
+I am an in comming PhD in Statistics under Professor [Xiaotong Shen](http://users.stat.umn.edu/~xshen/)'s supervision at [School of Statistics, University of Minnesota](http://www.stat.umn.edu/) and a senior undergraduate student majoring in [Mathematics and Economics](https://maec.hkust.edu.hk/home) and [Computer Science](https://cse.hkust.edu.hk/bsc/) at [the Hong Kong University of Science and Technology](https://hkust.edu.hk/).
 
 My research interests include causal relations, generative inference and prediction for black-box learners, and synthetic data using generation models. 
 
