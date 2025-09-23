@@ -9,12 +9,11 @@ redirect_from:
 
 Hi! Welcome to my personal website! I am Ruiming Min (/ʐweɪ mɪŋ mɪn/ or 'Ray Ming Min' for pronouncing, 闵锐明 in Chinese, or you can simply call me Raymon). 
 
-I am an incomming Ph.D. student in Statistics under Professor [Xiaotong Shen](http://users.stat.umn.edu/~xshen/)'s supervision at [School of Statistics, University of Minnesota](http://www.stat.umn.edu/) and a senior undergraduate student majoring in [Mathematics and Economics](https://maec.hkust.edu.hk/home) and [Computer Science](https://cse.hkust.edu.hk/bsc/) at [the Hong Kong University of Science and Technology](https://hkust.edu.hk/).
+I am a first-year Ph.D. student in Statistics under Professor [Xiaotong Shen](http://users.stat.umn.edu/~xshen/)'s supervision at [School of Statistics, University of Minnesota](http://www.stat.umn.edu/). My undergradate program are [Mathematics and Economics](https://maec.hkust.edu.hk/home) and [Computer Science](https://cse.hkust.edu.hk/bsc/) at [the Hong Kong University of Science and Technology](https://hkust.edu.hk/).
 
-My research interests include causal relations, generative inference and prediction for black-box learners, and synthetic data using generation models. 
+My research interests include generative inference and prediction for black-box learners, causal relations, and synthetic data using generation models. I am glad to talk with any fridents with similar interest.
 
-I am currently collaborating with Professor [Junhui WANG](https://sites.google.com/site/junhuiwang/Home?authuser=0) on differential privacy in synthetic data generation models and causal relations. 
-Additionally, I am working on my independent capstone project (final year project) under the supervision of Professor [Xinzhou GUO](https://www.math.hkust.edu.hk/people/faculty/profile/xinzhoug/) in the field of differential privacy in high-dimensional linear models and policy learning.
+I also collaborated with Professor [Xinzhou GUO](https://www.math.hkust.edu.hk/people/faculty/profile/xinzhoug/) in the field of differential privacy in high-dimensional linear models and Professor [Junhui WANG](https://sites.google.com/site/junhuiwang/Home?authuser=0) on differential privacy in synthetic data generation models and causal relations during my undergraduate time.
 
 
 What's more
