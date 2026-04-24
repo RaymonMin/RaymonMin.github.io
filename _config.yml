@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Ruiming (Raymon) Min's Homepage"
 title_separator          : "-"
 name                     : &name "Ruiming (Raymon) Min"
-description              : &description "Ph.D. student in Statistics at University of Minnesota, Twin Cities."
+description              : &description "First-year Ph.D. student in Statistics at the University of Minnesota, Twin Cities."
 url                      : https://ruimingmin.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "RaymonMin/RaymonMin.github.io"
@@ -24,7 +24,7 @@ author:
   avatar           : "me.png"
   name             : "Ruiming (Raymon) Min"
   pronouns         : "he/him"  
-  bio              : "Ph.D. student in Statistics at University of Minnesota, Twin Cities."
+  bio              : "First-year Ph.D. student in Statistics at the University of Minnesota, Twin Cities."
   location         : "Minneapolis, MN, USA"
   employer         : "University of Minnesota"
   uri              : # URL
@@ -282,7 +282,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Chicago # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
