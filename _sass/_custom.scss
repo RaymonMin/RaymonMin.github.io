@@ -217,20 +217,85 @@ a:hover {
 }
 
 .page__footer {
-  color: #dbe1e8;
-  background: $site-ink;
-  border-top: 4px solid $site-gold;
+  color: $site-muted;
+  background: #fbfcfd;
+  border-top: 1px solid rgba(122, 0, 25, 0.12);
+
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.85rem 1.4rem;
+    margin-top: 0;
+    padding-top: 1.35em;
+    padding-bottom: 1.35em;
+  }
+}
+
+.page__footer a {
+  color: $site-muted;
 }
 
 .page__footer a:hover {
-  color: #fff;
+  color: $site-maroon;
 }
 
 .page__footer .fas,
 .page__footer .fab,
 .page__footer .far,
 .page__footer .fal {
-  color: #dbe1e8;
+  color: $site-muted;
+}
+
+.footer__custom {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer__custom-link {
+  font-size: $type-size-7;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.footer__visitor-map {
+  line-height: 0;
+  opacity: 0.72;
+}
+
+.footer__visitor-map:hover {
+  opacity: 0.95;
+}
+
+.footer__visitor-map img {
+  display: block;
+  max-width: 180px;
+  height: auto;
+  border: 1px solid $site-border;
+  border-radius: 4px;
+}
+
+.page__footer-follow {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 0.75rem;
+  }
+
+  li {
+    padding: 0;
+  }
+
+  a {
+    padding-right: 0;
+  }
+}
+
+.page__footer-copyright {
+  flex-basis: 100%;
+  color: mix(#fff, $site-muted, 18%);
 }
 
 @media screen and (max-width: 767px) {
@@ -248,5 +313,14 @@ a:hover {
 
   .archive__item {
     padding-left: 0.85em;
+  }
+
+  .page__footer footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .footer__visitor-map img {
+    max-width: 160px;
   }
 }
