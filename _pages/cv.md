@@ -14,9 +14,8 @@ Education
 * Ph.D. student in Statistics, University of Minnesota, Twin Cities, 2025-Present
   * Advisor: Prof. [Xiaotong Shen](http://users.stat.umn.edu/~xshen/)
 * BSc in Mathematics and Economics, double major in Computer Science, Hong Kong University of Science and Technology (HKUST), 2021-2025
-  * CGA: 3.88/4.30 (~1% at school level)
+  * First Class Honor
 * Exchange student, University of Illinois at Urbana-Champaign
-  * CGA: 3.93/4
 
 Research project
 =====
