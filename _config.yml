@@ -21,7 +21,7 @@ repository               : "RaymonMin/RaymonMin.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "me.png"
+  avatar           : "me.jpg"
   name             : "Ruiming (Raymon) Min"
   pronouns         : "he/him"  
   bio              : "First-year Ph.D. student in Statistics at the University of Minnesota, Twin Cities."
