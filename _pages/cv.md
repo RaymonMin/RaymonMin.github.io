@@ -28,11 +28,6 @@ Research project
   * Developed a privacy metric for generative models, extending the differential privacy examination framework to scenarios where traditional noise addition or model analysis techniques are ineffective.
   * Designed a penalty-based algorithm using the proposed privacy metric to balance privacy protection and downstream task accuracy.
   * Developed a GAN algorithm under the proposed privacy metric, improving downstream task accuracy while maintaining privacy protection.
-
-* Knowledge Discovery over Database (Supervised by Prof. [Raymond Chi Wing WONG](https://www.cse.ust.hk/~raywong/), Hong Kong University of Science and Technology, 02/2023-06/2023)
-  * Conducted in-depth analysis and replication of published papers related to time-series modeling.
-  * Identified and reported studies that notably enhanced prediction accuracy.  
-  * Compiled and documented pertinent algorithms and data processing techniques for reference.
   
 Teaching Experience
 ======
