@@ -49,7 +49,7 @@ author:
 
   # Social media
   bluesky          : # "bsky.app" # Replace this with you Bluesky username
-  facebook         : profile.php?id=100071310468319
+  facebook         : #profile.php?id=100071310468319
   flickr           : # Username
   foursquare       : # Username
   goodreads        : # Username
@@ -71,7 +71,7 @@ author:
   wikipedia        : # Username
   xing             : # Username
   youtube          : # Username
-  zhihu            : raymon-min # Username
+  zhihu            : #raymon-min # Username
 
 
 
