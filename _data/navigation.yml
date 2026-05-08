@@ -15,7 +15,7 @@ main:
   - title: "CV"
     url: /cv/
 
-  - title: "HKUST Course Notes"
-    url: /hkust-notes/
+  - title: "笔记集散地"
+    url: /notes/
   #- title: "Guide"
   #  url: /markdown/
