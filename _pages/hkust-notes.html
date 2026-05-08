@@ -1,7 +1,7 @@
 ---
 permalink: /notes/
 title: "Notes Hub · 笔记集散地"
-author_profile: true
+author_profile: false
 ---
 
 <style>
@@ -16,7 +16,8 @@ author_profile: true
   --sf:  #f7f9fb;   /* $site-soft        */
 }
 
-.hub a { border-bottom: 0; }
+/* Non-button links only — buttons manage their own borders via higher-specificity rules */
+.hub a:not(.hub-btn) { border-bottom: 0; }
 
 /* ── Inline Chinese helper ──────────────────────────────────────
    English at normal size; Chinese sits beside it, smaller + muted.
@@ -30,6 +31,8 @@ author_profile: true
   vertical-align: baseline;
   font-style: normal;
 }
+/* Inside a filled button the Chinese should stay legible on dark bg */
+.hub .hub-btn--primary .zh { color: rgba(255,255,255,.78); }
 
 /* ── Hero card ── */
 .hub-hero {
@@ -90,7 +93,10 @@ author_profile: true
   margin-top: 1.15rem;
 }
 
-.hub-btn {
+/* All .hub .hub-btn* rules use two-class specificity (0,2,0) to beat
+   the site's single-class+element link rules (0,1,1) that would otherwise
+   override border and color on anchor elements.                            */
+.hub .hub-btn {
   display: inline-flex;
   align-items: center;
   gap: 0.25em;
@@ -104,37 +110,37 @@ author_profile: true
   transition: background .18s, border-color .18s, color .18s;
 }
 
-/* Solid maroon — white text — clearly a CTA, never confused with ink body text */
-.hub-btn--primary {
+/* Solid maroon — white text */
+.hub .hub-btn--primary {
   background: var(--m);
   border: 1.5px solid var(--m);
   color: #fff;
 }
-.hub-btn--primary:hover {
+.hub .hub-btn--primary:hover {
   background: var(--md);
   border-color: var(--md);
   color: #fff;
 }
 
-/* Outline — maroon text on white, same maroon as site links */
-.hub-btn--outline {
+/* Outline — full border, maroon text on white */
+.hub .hub-btn--outline {
   background: #fff;
   border: 1.5px solid var(--m);
   color: var(--m);
 }
-.hub-btn--outline:hover {
+.hub .hub-btn--outline:hover {
   background: #fdf4f5;
   border-color: var(--md);
   color: var(--md);
 }
 
-/* Gold-tinted — for summary action */
-.hub-btn--gold {
+/* Gold-tinted — summary action */
+.hub .hub-btn--gold {
   background: #fff;
   border: 1.5px solid #b8920f;
   color: #7a5f00;
 }
-.hub-btn--gold:hover {
+.hub .hub-btn--gold:hover {
   background: #fffaeb;
   border-color: #7a5f00;
   color: #5a4400;
