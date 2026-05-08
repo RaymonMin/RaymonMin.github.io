@@ -2,10 +2,23 @@
 permalink: /notes/
 title: "Notes Hub · 笔记集散地"
 author_profile: false
-classes: wide
 ---
 
 <style>
+/* ── Full-width override ─────────────────────────────────────────────────────
+   _page.scss gives .page a Susy span(10 of 12) + 2/12 right suffix (sidebar
+   gap) and _custom.scss caps it at 860px. This page has no sidebar, so undo
+   all of that so the content fills the #main container.
+   ─────────────────────────────────────────────────────────────────────────── */
+.page {
+  width: auto !important;
+  max-width: none !important;
+  float: none !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-right: 0 !important;
+}
+
 /* ── Tokens — match _custom.scss ── */
 .hub {
   --m:   #7a0019;   /* $site-maroon      */
