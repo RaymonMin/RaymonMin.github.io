@@ -1,0 +1,306 @@
+---
+permalink: /hkust-notes/
+title: "HKUST Course Notes"
+author_profile: true
+---
+
+<style>
+  .notes-native {
+    --notes-maroon: #7a0019;
+    --notes-gold: #ffcc33;
+    --notes-teal: #0f766e;
+    --notes-ink: #232b35;
+    --notes-muted: #5f6b76;
+    --notes-border: #e3e8ef;
+    --notes-soft: #f7f9fb;
+  }
+
+  .notes-native a {
+    border-bottom: 0;
+  }
+
+  .notes-intro {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 1.5rem;
+    align-items: center;
+    padding: 1.4rem;
+    border: 1px solid var(--notes-border);
+    border-left: 4px solid var(--notes-maroon);
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 16px 36px rgba(35, 43, 53, 0.08);
+  }
+
+  .notes-intro__title {
+    margin: 0 0 0.35rem;
+    color: var(--notes-maroon);
+    font-size: 1.45rem;
+    line-height: 1.25;
+  }
+
+  .notes-intro__copy {
+    margin: 0.55rem 0 0;
+    color: var(--notes-ink);
+  }
+
+  .notes-intro__mark {
+    width: 96px;
+    height: 96px;
+    object-fit: contain;
+  }
+
+  .notes-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-top: 1rem;
+  }
+
+  .notes-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 2.45rem;
+    padding: 0.6rem 0.9rem;
+    border: 1px solid rgba(122, 0, 25, 0.22);
+    border-radius: 4px;
+    background: #fff;
+    color: var(--notes-maroon);
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+
+  .notes-button:hover {
+    border-color: var(--notes-gold);
+    color: #4b0010;
+  }
+
+  .notes-button--primary {
+    border-color: var(--notes-maroon);
+    background: var(--notes-maroon);
+    color: #fff;
+  }
+
+  .notes-button--primary:hover {
+    border-color: #4b0010;
+    background: #4b0010;
+    color: #fff;
+  }
+
+  .notes-section {
+    margin-top: 2rem;
+  }
+
+  .notes-section__heading {
+    margin-bottom: 0.55rem;
+    color: var(--notes-ink);
+    font-size: 1.35rem;
+  }
+
+  .notes-section__copy {
+    max-width: 48rem;
+    color: var(--notes-muted);
+  }
+
+  .notes-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .notes-card {
+    overflow: hidden;
+    border: 1px solid var(--notes-border);
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 12px 28px rgba(35, 43, 53, 0.07);
+  }
+
+  .notes-card__header {
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.85rem 0.95rem;
+    border-bottom: 1px solid var(--notes-border);
+    background: linear-gradient(90deg, rgba(122, 0, 25, 0.06), rgba(15, 118, 110, 0.06));
+  }
+
+  .notes-card__title {
+    margin: 0;
+    color: var(--notes-ink);
+    font-size: 1rem;
+    line-height: 1.25;
+  }
+
+  .notes-card__meta {
+    display: block;
+    margin-top: 0.18rem;
+    color: var(--notes-muted);
+    font-size: 0.78rem;
+    font-weight: 600;
+  }
+
+  .notes-card__link {
+    flex: 0 0 auto;
+    color: var(--notes-teal);
+    font-size: 0.78rem;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+
+  .notes-frame,
+  .notes-form {
+    display: block;
+    width: 100%;
+    border: 0;
+    background: var(--notes-soft);
+  }
+
+  .notes-frame {
+    height: 340px;
+  }
+
+  .notes-form-wrap {
+    overflow: hidden;
+    margin-top: 1rem;
+    border: 1px solid var(--notes-border);
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 12px 28px rgba(35, 43, 53, 0.07);
+  }
+
+  .notes-form {
+    height: 700px;
+  }
+
+  .notes-summary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.9rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border: 1px solid rgba(15, 118, 110, 0.24);
+    border-radius: 8px;
+    background: linear-gradient(90deg, rgba(15, 118, 110, 0.08), rgba(255, 204, 51, 0.13));
+  }
+
+  .notes-summary p {
+    margin: 0;
+    color: var(--notes-ink);
+  }
+
+  .notes-disclaimer {
+    margin-top: 2rem;
+    padding: 1rem;
+    border-left: 4px solid var(--notes-gold);
+    background: #fff;
+    color: var(--notes-muted);
+  }
+
+  @media screen and (max-width: 900px) {
+    .notes-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    .notes-intro {
+      grid-template-columns: 1fr;
+    }
+
+    .notes-intro__mark {
+      width: 76px;
+      height: 76px;
+    }
+
+    .notes-card__header,
+    .notes-summary {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+
+    .notes-frame {
+      height: 300px;
+    }
+
+    .notes-form {
+      height: 640px;
+    }
+  }
+</style>
+
+<div class="notes-native">
+  <section class="notes-intro" aria-labelledby="notes-intro-title">
+    <div>
+      <h2 id="notes-intro-title" class="notes-intro__title">HKUST 笔记集散地</h2>
+      <p class="notes-intro__copy">我们致力于为广大科大同学提供免费（且希望优质）的笔记资源，所有笔记均由同学们自己整理并上传。</p>
+      <p class="notes-intro__copy">如果你也愿意贡献课程笔记，欢迎加入我们，一起把这个平台做得更全面、更方便。</p>
+      <div class="notes-actions" aria-label="Notes actions">
+        <a class="notes-button notes-button--primary" href="#notes-folders">Browse Notes</a>
+        <a class="notes-button" href="#upload-notes">Upload Notes</a>
+        <a class="notes-button" href="#contact-notes">Contact</a>
+        <a class="notes-button" href="mailto:hkustsharing@gmail.com">Email Us</a>
+      </div>
+    </div>
+    <img class="notes-intro__mark" src="{{ '/images/site-logo.png' | relative_url }}" alt="HKUST Course Notes">
+  </section>
+
+  <section class="notes-section" aria-labelledby="notes-summary-title">
+    <h2 id="notes-summary-title" class="notes-section__heading">Resource Summary</h2>
+    <div class="notes-summary">
+      <p>All available notes are organized by subject. The summary file keeps a compact overview of the current collection.</p>
+      <a class="notes-button" href="{{ site.data.hkust_notes.summary.url }}" target="_blank" rel="noopener">Open Summary</a>
+    </div>
+  </section>
+
+  <section id="notes-folders" class="notes-section" aria-labelledby="notes-folders-title">
+    <h2 id="notes-folders-title" class="notes-section__heading">Course Notes</h2>
+    <p class="notes-section__copy">Browse the public folders below by subject. Each panel is rendered directly from the corresponding Google Drive folder.</p>
+
+    <div class="notes-grid">
+      {% for folder in site.data.hkust_notes.folders %}
+        <article class="notes-card">
+          <header class="notes-card__header">
+            <h3 class="notes-card__title">
+              {{ folder.code }}
+              <span class="notes-card__meta">{{ folder.name }}</span>
+            </h3>
+            <a class="notes-card__link" href="https://docs.google.com/folderview?id={{ folder.id }}" target="_blank" rel="noopener">Open</a>
+          </header>
+          <iframe
+            class="notes-frame"
+            title="{{ folder.code }} notes folder"
+            src="https://drive.google.com/embeddedfolderview?id={{ folder.id }}#list"
+            loading="lazy"
+            allowfullscreen></iframe>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section id="upload-notes" class="notes-section" aria-labelledby="upload-notes-title">
+    <h2 id="upload-notes-title" class="notes-section__heading">Upload Notes</h2>
+    <p class="notes-section__copy">Waiting for your contribution.</p>
+    <div class="notes-form-wrap">
+      <iframe class="notes-form" title="Upload notes form" src="{{ site.data.hkust_notes.forms.upload }}" loading="lazy">Loading...</iframe>
+    </div>
+  </section>
+
+  <section id="contact-notes" class="notes-section" aria-labelledby="contact-notes-title">
+    <h2 id="contact-notes-title" class="notes-section__heading">Contact</h2>
+    <p class="notes-section__copy">联系方式：<a href="mailto:hkustsharing@gmail.com">hkustsharing@gmail.com</a></p>
+    <div class="notes-form-wrap">
+      <iframe class="notes-form" title="Contact HKUST Course Notes form" src="{{ site.data.hkust_notes.forms.contact }}" loading="lazy">Loading...</iframe>
+    </div>
+  </section>
+
+  <aside class="notes-disclaimer">
+    <p>One for all, all for one.</p>
+    <p>本公众号内笔记由上传者在香港科技大学及交换学校的学习期间，结合课程和参考书（如有）总结而成。如涉侵权，请联系我们，我们将立即处理。本网站所有内容版权所有于制作者以及其他相关人员，本笔记集散地仅作为制作者的公布平台使用。本集散地的所有笔记仅供学习研究使用，不用于商业行为，也禁止他人商用。</p>
+  </aside>
+</div>
