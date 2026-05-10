@@ -315,11 +315,16 @@ author_profile: false
    in the dropdown. CSS !important overrides greedy-nav's absolute position
    (right:0) and its runtime `hidden` class after window resize.
    ─────────────────────────────────────────────────────────────────────────── */
+#site-nav {
+  min-height: 70px; /* prevent collapse when visible-links is empty */
+}
 #site-nav button,
 #site-nav button.hidden {
   display: inline-flex !important;
   right: auto !important;
   left: 0 !important;
+  top: 50%;
+  transform: translateY(-50%);
 }
 #site-nav .hidden-links {
   right: auto !important;
