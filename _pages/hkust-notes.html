@@ -491,7 +491,14 @@ body      { padding-top: 48px !important; }
     <h2 id="hub-upload-h">Upload Notes <span class="zh">上传笔记</span></h2>
     <p class="hub-desc">Contribute your course notes to help the community grow. Files go to a private queue and will be published after review. <span class="zh">欢迎贡献笔记，文件将进入私有待审队列，审核后发布。</span></p>
     <div class="hub-form-wrap">
-      <iframe class="hub-form" title="Upload notes" src="https://script.google.com/macros/s/AKfycbxtn_tZVVMuqAzhlc4dXPG5ESQGV7mbIV__PPohZoA1bSg-ADvW2Mv-zhCXo4aRFfa1/exec" loading="lazy">Loading…</iframe>
+      <div class="hub-frame-placeholder hub-form"
+           data-src="https://script.google.com/macros/s/AKfycbxtn_tZVVMuqAzhlc4dXPG5ESQGV7mbIV__PPohZoA1bSg-ADvW2Mv-zhCXo4aRFfa1/exec"
+           data-title="Upload notes"
+           data-class="hub-form"
+           role="button" tabindex="0" aria-label="Load upload form">
+        <span class="hub-frame-placeholder__icon">📤</span>
+        <span class="hub-frame-placeholder__label">Click to load upload form · 点击加载上传表单</span>
+      </div>
     </div>
   </section>
 
@@ -500,7 +507,14 @@ body      { padding-top: 48px !important; }
     <h2 id="hub-contact-h">Contact <span class="zh">联系我们</span></h2>
     <p class="hub-desc">For any questions, reach us via the form below or by email at <a href="mailto:hkustsharing@gmail.com">hkustsharing@gmail.com</a>. <span class="zh">如有问题请通过下方表单或邮件联系。</span></p>
     <div class="hub-form-wrap">
-      <iframe class="hub-form hub-form--sm" title="Contact form" src="https://script.google.com/macros/s/AKfycbxtn_tZVVMuqAzhlc4dXPG5ESQGV7mbIV__PPohZoA1bSg-ADvW2Mv-zhCXo4aRFfa1/exec?page=contact" loading="lazy">Loading…</iframe>
+      <div class="hub-frame-placeholder hub-form hub-form--sm"
+           data-src="https://script.google.com/macros/s/AKfycbxtn_tZVVMuqAzhlc4dXPG5ESQGV7mbIV__PPohZoA1bSg-ADvW2Mv-zhCXo4aRFfa1/exec?page=contact"
+           data-title="Contact form"
+           data-class="hub-form hub-form--sm"
+           role="button" tabindex="0" aria-label="Load contact form">
+        <span class="hub-frame-placeholder__icon">✉️</span>
+        <span class="hub-frame-placeholder__label">Click to load contact form · 点击加载联系表单</span>
+      </div>
     </div>
   </section>
 
@@ -514,10 +528,10 @@ body      { padding-top: 48px !important; }
 
 <script>
 (function () {
-  /* Click-to-load Drive folder iframes */
+  /* Click-to-load iframes (Drive folders + GAS forms) */
   function loadFrame(el) {
     var iframe = document.createElement('iframe');
-    iframe.className = 'hub-frame';
+    iframe.className = el.dataset.class || 'hub-frame';
     iframe.src = el.dataset.src;
     iframe.title = el.dataset.title;
     iframe.allowFullscreen = true;
