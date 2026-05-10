@@ -271,6 +271,35 @@ author_profile: false
   background: var(--sf);
 }
 
+/* ── Click-to-load placeholder ── */
+.hub-frame-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 320px;
+  background: var(--sf);
+  border-top: 1px solid var(--bo);
+  cursor: pointer;
+  gap: 0.5rem;
+  color: var(--mu);
+  transition: background .18s, color .18s;
+}
+.hub-frame-placeholder:hover {
+  background: #edf0f4;
+  color: var(--ink);
+}
+.hub-frame-placeholder__icon {
+  font-size: 1.6rem;
+  line-height: 1;
+}
+.hub-frame-placeholder__label {
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
 /* ── Forms ── */
 .hub-form-wrap {
   overflow: hidden;
@@ -431,7 +460,7 @@ body      { padding-top: 48px !important; }
   <!-- ── Course Notes ── -->
   <section id="notes-folders" class="hub-section" aria-labelledby="hub-folders-h">
     <h2 id="hub-folders-h">Course Notes <span class="zh">课程笔记</span></h2>
-    <p class="hub-desc">Browse the public folders below by subject — each panel renders the corresponding Google Drive folder directly. <span class="zh">按科目浏览以下公开文件夹，每个面板直接展示对应 Drive 内容。</span></p>
+    <p class="hub-desc">Browse by subject below — click any panel to load the Google Drive folder inline, or use Open ↗ to view in Drive directly. <span class="zh">按科目浏览，点击面板加载对应 Drive 文件夹，或直接点击 Open ↗ 在 Drive 中查看。</span></p>
 
     <div class="hub-grid">
       {% for folder in site.data.hkust_notes.folders %}
@@ -443,12 +472,15 @@ body      { padding-top: 48px !important; }
             </div>
             <a class="hub-card__open" href="https://docs.google.com/folderview?id={{ folder.id }}" target="_blank" rel="noopener" aria-label="Open {{ folder.name }} in Google Drive">Open ↗</a>
           </header>
-          <iframe
-            class="hub-frame"
-            title="{{ folder.name }} notes"
-            src="https://drive.google.com/embeddedfolderview?id={{ folder.id }}#list"
-            loading="lazy"
-            allowfullscreen></iframe>
+          <div class="hub-frame-placeholder"
+               data-src="https://drive.google.com/embeddedfolderview?id={{ folder.id }}#list"
+               data-title="{{ folder.name }} notes"
+               role="button"
+               tabindex="0"
+               aria-label="Load {{ folder.name }} folder preview">
+            <span class="hub-frame-placeholder__icon">📂</span>
+            <span class="hub-frame-placeholder__label">Click to load · 点击加载</span>
+          </div>
         </article>
       {% endfor %}
     </div>
@@ -482,6 +514,24 @@ body      { padding-top: 48px !important; }
 
 <script>
 (function () {
+  /* Click-to-load Drive folder iframes */
+  function loadFrame(el) {
+    var iframe = document.createElement('iframe');
+    iframe.className = 'hub-frame';
+    iframe.src = el.dataset.src;
+    iframe.title = el.dataset.title;
+    iframe.allowFullscreen = true;
+    iframe.setAttribute('border', '0');
+    el.parentNode.replaceChild(iframe, el);
+  }
+  document.querySelectorAll('.hub-frame-placeholder').forEach(function (el) {
+    el.addEventListener('click', function () { loadFrame(el); });
+    el.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); loadFrame(el); }
+    });
+  });
+
+  /* Custom topbar toggle */
   var btn = document.getElementById('hub-toggle');
   var nav = document.getElementById('hub-nav');
   if (!btn || !nav) return;
