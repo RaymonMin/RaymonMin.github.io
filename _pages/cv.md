@@ -19,32 +19,30 @@ Education
 
 Research project
 =====
+* Distribution-Faithful Data Sharing via Differentially Private Synthetic Data (Advised by Prof. [Xiaotong T. Shen](http://users.stat.umn.edu/~xshen/), University of Minnesota, 10/2025- Present)
+  * Developed a high-fidelity DP data sharing framework by combining DP-SGD with generative models (diffusion/flow-matching), enabling synthetic data release under strict (ε,δ)-DP.
+  * Derived Wasserstein-1 theoretical bounds to decouple intrinsic learning errors from privacy distortions, mathematically guaranteeing downstream ML utility and distributional fidelity.  
+  * Designed a Distributional Cross-Validation (DCV) algorithm to optimize data generation scale, achieving near-original ML performance while effectively resisting membership-inference attacks.
+
 * Differential Privacy for Inference in the Debiased LASSO Model (Supervised by Prof. [Xinzhou GUO](https://www.math.hkust.edu.hk/people/faculty/profile/xinzhoug/), Hong Kong University of Science and Technology, 09/2024-Present)
   * Worked on asymptotic normality theory for a method combining differentially private debiased LASSO with bootstrap techniques to address selection bias.
   * Studied inference methods for multimodal EEG learning under differential privacy constraints.
 
-* Trade-off Between Privacy and Accuracy of Synthetic Data (Supervised by Prof. [Junhui WANG](https://sites.google.com/site/junhuiwang/Home?authuser=0), Chinese University of Hong Kong, 01/2024-01/2025)
-  * Developed a privacy metric for generative models, extending the differential privacy examination framework to scenarios where traditional noise addition or model analysis techniques are ineffective.
-  * Designed a penalty-based algorithm using the proposed privacy metric to balance privacy protection and downstream task accuracy.
-  * Developed a GAN algorithm under the proposed privacy metric, improving downstream task accuracy while maintaining privacy protection.
   
 Teaching Experience
 ======
+* STAT3011 - Introduction to Statistical Analysis (Teaching Assistant, UMN, 09/2026-Present)
+* STAT3022 - Data Analysis (Teaching Assistant, UMN, 09/2026-Present)
+* STAT3021 - Introduction to Probability and Statistics (Teaching Assistant, UMN, 09/2025-06/2026, two semester)
 * COMP2011 - Programming with C++ (Undergraduate Teaching Assistant, HKUST, 09/2024-12/2024)
-  * Led laboratory sessions and supported postgraduate teaching assistants by addressing student questions and maintaining high-quality lab instruction.
-  * Contributed to lab curriculum development through pre-release checks, troubleshooting, and optimization of practical learning materials.
-  * Assisted in organizing and managing grading sessions after midterm and final examinations, ensuring fair and accurate assessment.
 * Math Support Center (Undergraduate Student Tutor, HKUST, 09/2024-12/2024)
-  * Provided comprehensive mathematics tutoring and knowledge structuring for HKUST undergraduates across all four years of study.
-  * Provided technical support for various mathematics courses to HKUST undergraduates across all four years of study.
 
 
 Internship Experience
 ======
+* Department of Quantitative Health Sciences, Mayo Clinic (Biostatistician, Rochester / Hybird, 05/2026 - Present)
 * Computer Department, Investment Research Center, Essence Securities Co., Ltd. (Assistant Analyst, Shanghai / Online, 06/2023-09/2023)
-  * Conducted statistical modeling analysis and prepared a research report on the company's market position, growth, and financial performance.
-  * Utilized statistical tools and software for data manipulation and presentation.
-  * Conducted equity research and financial modeling to evaluate investment opportunities in the technology sector.
+
 
 Honors and Awards
 =====
