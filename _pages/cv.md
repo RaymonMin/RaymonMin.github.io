@@ -11,47 +11,71 @@ redirect_from:
 
 Education
 ======
-* Ph.D. student in Statistics, University of Minnesota, Twin Cities, 2025-Present
+* Ph.D. student in Statistics, University of Minnesota, Twin Cities, 09/2025-Present
   * Advisor: Prof. [Xiaotong Shen](http://users.stat.umn.edu/~xshen/)
-* BSc in Mathematics and Economics, double major in Computer Science, Hong Kong University of Science and Technology (HKUST), 2021-2025
+* BSc in Mathematics and Economics, double major in Computer Science, Hong Kong University of Science and Technology (HKUST), 09/2021-06/2025
   * First Class Honor
-* Exchange student, University of Illinois at Urbana-Champaign
+* Exchange student, University of Illinois at Urbana-Champaign (UIUC), 08/2023-12/2023
 
-Research project
-=====
-* Distribution-Faithful Data Sharing via Differentially Private Synthetic Data (Advised by Prof. [Xiaotong T. Shen](http://users.stat.umn.edu/~xshen/), University of Minnesota, 10/2025- Present)
-  * Developed a high-fidelity DP data sharing framework by combining DP-SGD with generative models (diffusion/flow-matching), enabling synthetic data release under strict (ε,δ)-DP.
-  * Derived Wasserstein-1 theoretical bounds to decouple intrinsic learning errors from privacy distortions, mathematically guaranteeing downstream ML utility and distributional fidelity.  
-  * Designed a Distributional Cross-Validation (DCV) algorithm to optimize data generation scale, achieving near-original ML performance while effectively resisting membership-inference attacks.
-
-* Differential Privacy for Inference in the Debiased LASSO Model (Supervised by Prof. [Xinzhou GUO](https://www.math.hkust.edu.hk/people/faculty/profile/xinzhoug/), Hong Kong University of Science and Technology, 09/2024-Present)
-  * Worked on asymptotic normality theory for a method combining differentially private debiased LASSO with bootstrap techniques to address selection bias.
-  * Studied inference methods for multimodal EEG learning under differential privacy constraints.
-
-  
-Teaching Experience
+Research Experience
 ======
-* STAT3011 - Introduction to Statistical Analysis (Teaching Assistant, UMN, 09/2026-Present)
-* STAT3022 - Data Analysis (Teaching Assistant, UMN, 09/2026-Present)
-* STAT3021 - Introduction to Probability and Statistics (Teaching Assistant, UMN, 09/2025-06/2026, two semester)
-* COMP2011 - Programming with C++ (Undergraduate Teaching Assistant, HKUST, 09/2024-12/2024)
-* Math Support Center (Undergraduate Student Tutor, HKUST, 09/2024-12/2024)
+* **Optimal Disclosure Power: Calibrating Synthetic Data Releases to Membership Inference** (Advised by Prof. [Xiaotong T. Shen](http://users.stat.umn.edu/~xshen/), University of Minnesota, 10/2025-Present)
+  * Defined optimal disclosure power to measure how membership-inference risk grows with release size.
+  * Derived release-size rules for noisy SGD and general generators with finite-sample and asymptotic guarantees.
+  * Achieved higher utility than DP-only baselines at the same privacy level on MNIST, Adult and simulated data.
 
+* **ComposeCFM: Composable Conditional Flow Matching for Imaging Harmonization and Subject-Specific Acquisition Counterfactuals** (Advised by Dr. Mingzhao Hu, Mayo Clinic, and Prof. [Xiaotong T. Shen](http://users.stat.umn.edu/~xshen/), 05/2026-Present)
+  * Developed a conditional flow-matching method that removes scanner effects from brain MRI markers.
+  * Outperformed ComBat in 110 of 120 simulation settings and in most comparisons on a synthetic aging cohort.
+  * Selected as one of 15 finalists of ASA ARISE 2026–2027.
 
-Internship Experience
+* **Differentially Private Bootstrap Inference on Extrema Parameters in High Dimensions** (Advised by Prof. [Xinzhou GUO](https://www.math.hkust.edu.hk/people/faculty/profile/xinzhoug/), HKUST, 09/2024-Present)
+  * Proposed a DP inference method for the largest coefficient of a high-dimensional sparse linear model.
+  * Combined a private debiased LASSO with a bootstrap that requires no additional privacy budget.
+  * Proved the asymptotic validity and privacy guarantee of the procedure.
+
+Manuscripts
 ======
-* Department of Quantitative Health Sciences, Mayo Clinic (Biostatistician, Rochester / Hybird, 05/2026 - Present)
-* Computer Department, Investment Research Center, Essence Securities Co., Ltd. (Assistant Analyst, Shanghai / Online, 06/2023-09/2023)
+* **Ruiming Min** and Xiaotong Shen\*. Optimal disclosure power: calibrating synthetic data releases to membership inference. *In preparation.*
+* **Ruiming Min**, Tianxi Li, Mingzhao Hu\* and Xiaotong Shen\*. ComposeCFM: composable conditional flow matching for imaging harmonization and subject-specific acquisition counterfactuals. *To be submitted.*
+* **Ruiming Min**, Xiaowen Fu, Xinzhou Guo\* and Jiarui Zhang\*. Differentially private bootstrap inference on extrema parameters in high dimensions. *In preparation.*
 
+\* Corresponding author.
+
+Presentations
+======
+* *ComposeCFM: Composable Conditional Flow Matching for Imaging Harmonization*. ARISE 2026–2027 Finalist Webinar, American Statistical Association (online), 12/2026.
+* *ComposeCFM: Composable Conditional Flow Matching for Imaging Harmonization*. Invited talk, Division of Clinical Trials and Biostatistics, Mayo Clinic, Rochester, MN, 08/2026.
+* *ComposeCFM: Composable Conditional Flow Matching for Imaging Harmonization*. Invited talk, Division of Clinical Trials and Biostatistics, Mayo Clinic, Rochester, MN, 07/2026.
 
 Honors and Awards
 =====
-* Bronze medal in the final competition of the 37th Chinese Physics Olympiad（Top high school students in China nationwide）
+* Finalist (one of 15), ASA ARISE 2026–2027 (Aging Research – Innovations in Statistical Exploration), for ComposeCFM
 * 18th Epsilon Fund Award in HKUST (Awarded to top math students, less than 10 undergraduates per year)
 * 2022 S.S. CHERN Class Admission Scholarship (Awarded to students in the prestigious S.S. Chern Class)
-* The BDR Scholarship - Academic Performance (30,000HKD)
-* 2021 HKUST Admission Scholarship (140,000HKD)
-* 2022/23 University’s Scholarship Scheme for Continuing Undergraduate Students (10,000HKD)
+* Bronze medal, National Final of the 37th Chinese Physics Olympiad (top high school students in China)
+
+Internship Experience
+======
+* Department of Quantitative Health Sciences, Mayo Clinic (Biostatistics Intern, Division of Clinical Trials and Biostatistics, Rochester, MN, 05/2026-09/2026)
+  * Developed ComposeCFM for harmonizing multi-site neuroimaging markers (see Research Experience).
+  * Delivered a reproducible Python pipeline and a technical report on the method and results.
+* Computer Department, Investment Research Center, Essence Securities Co., Ltd. (Assistant Analyst, Shanghai / Online, 06/2023-09/2023)
+  * Conducted equity research and statistical modeling of technology-sector companies and wrote research reports.
+
+Teaching Experience
+======
+* STAT3011 - Introduction to Statistical Analysis (Teaching Assistant, UMN, Fall 2026): lab sections and office hours
+* STAT3022 - Data Analysis (Teaching Assistant, UMN, Fall 2026): lab sections and office hours
+* STAT3021 - Introduction to Probability and Statistics (Teaching Assistant, UMN, Fall 2025 and Spring 2026): office hours
+* COMP2011 - Programming with C++ (Undergraduate Teaching Assistant, HKUST, 09/2024-12/2024)
+* Math Support Center (Undergraduate Student Tutor, HKUST, 09/2024-12/2024)
+
+Skills
+======
+* **Programming:** Python (PyTorch, NumPy, SciPy), R, LaTeX, Git
+* **Computing:** Slurm-based high-performance computing (Minnesota Supercomputing Institute)
+* **Languages:** Mandarin (native), English (fluent)
 
 Service and leadership
 ======
